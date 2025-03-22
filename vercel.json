@@ -1,13 +1,12 @@
 {
     "routes": [
       {
-        "source": "/",
-        "destination": "/"
+        "src": "/",
+        "dest": "/"
       },
-
       {
-        "source": "/product/:id",
-        "destination": "/"
+        "src": "/product/:id",
+        "dest": "/"
       }
     ]
   }
