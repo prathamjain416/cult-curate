@@ -9,8 +9,5 @@ export default defineConfig({
         client: './index.html',
       }
     }
-  },
-  ssr: {
-    noExternal: ['react', 'react-dom', 'react-router-dom']
   }
 });
