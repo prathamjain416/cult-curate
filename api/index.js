@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default async function handler(req, res) {
   try {
-    const url = req.url;
+    const url = new URL(req.url, `http://${req.headers.host}`).pathname;
 
     let template, render;
 
