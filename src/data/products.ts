@@ -1,3 +1,10 @@
+export interface Flavor {
+  name: string;
+  description?: string;
+  image: string;
+  link?: string;
+}
+
 export interface Product {
   id: number;
   name: string;
@@ -9,13 +16,14 @@ export interface Product {
   price: string;
   features: string[];
   rating?: number;
+  flavors?: Flavor[];
 }
 
 export const products: Product[] = [
   {
     id: 7,
     name: "Glow Boosting Hydrating Moisturiser",
-    description: "Meet your skin’s new BFF. This featherlight gel crème does it all—hydrating, glowing, and smoothing your skin to perfection. Powered by Luminescine (from Italy’s Mullein flower) to boost radiance, Mannaferm HF (from Sicilian Manna Ash trees) for deep hydration, plus Hyaluronic Acid and Niacinamide to lock in moisture, smooth pores, and keep shine under control.",
+    description: "Meet your skin's new BFF from this innovative D2C beauty brand. This featherlight gel crème does it all—hydrating, glowing, and smoothing your skin to perfection. Powered by Luminescine (from Italy's Mullein flower) to boost radiance, Mannaferm HF (from Sicilian Manna Ash trees) for deep hydration, plus Hyaluronic Acid and Niacinamide to lock in moisture, smooth pores, and keep shine under control.",
     image: "https://sammmm.com/cdn/shop/files/Glow_1_PDP.jpg?v=1739189036&width=1920",
     link: "https://sammmm.com/products/glow-boosting-hydrating-moisturiser",
     category: "Beauty",
@@ -33,7 +41,7 @@ export const products: Product[] = [
   {
     id: 8,
     name: "Bhutan's Ema Datshi Cheesy Spicy Dip",
-    description: "It's not just a condiment but a cultural emblem in Bhutan, where the local belief is that the spicier the sauce, the warmer the heart, reflecting the Bhutanese warmth & hospitality.",
+    description: "Discover authentic Bhutanese flavors from this innovative D2C food brand. It's not just a condiment but a cultural emblem in Bhutan, where the local belief is that the spicier the sauce, the warmer the heart, reflecting the Bhutanese warmth & hospitality.",
     image: "https://eatatlas.myshopify.com/cdn/shop/files/1.jpg?v=1740029245&width=1100",
     link: "https://eatatlas.myshopify.com/products/bhutan-s-ema-datshi-cheesy-spicy-dip-ready-to-eat",
     category: "Food",
@@ -69,7 +77,7 @@ export const products: Product[] = [
   {
     id: 10,
     name: "5% Niacinamide Sunscreen Body Lotion",
-    description: "Advanced body lotion combining niacinamide benefits with broad-spectrum sun protection",
+    description: "Advanced body lotion from this innovative D2C skincare brand, combining niacinamide benefits with broad-spectrum sun protection for modern skincare needs.",
     image: "https://innovist.com/cdn/shop/files/5_first_image.png?v=1740045114&width=1800",
     link: "https://innovist.com/products/5-niacinamide-sunscreen-body-lotion",
     category: "Beauty",
@@ -171,25 +179,25 @@ export const products: Product[] = [
       "No artificial preservatives"
     ],
     rating: 4.8
-  },
-  {
-    id: 16,
-    name: "Winston Nut Groomer 1.0",
-    description: "Keep it clean, close, and confident with every trim. The Nut Groomer 1.0 is designed for body and below-the-belt grooming, offering a safe, comfortable trim with no nicks or irritation. It's your go-to tool for groomed look.",
-    image: "https://winstonindia.com/cdn/shop/files/NutGroomer1.0_c4133cbb-6b43-43bd-ac6e-c19b8cdbfc08.png?v=1740117793&width=800",
-    link: "https://winstonindia.com/products/winston-nut-groomer-1-o",
-    category: "Grooming",
-    releaseDate: "2024-02-22",
-    price: "₹1,499",
-    features: [
-      "Precision trimming head",
-      "Waterproof design",
-      "Rechargeable battery",
-      "LED light guide",
-      "Travel-friendly size"
-    ],
-    rating: 4.7
-  },
+  }, 
+  // {
+  //   id: 16,
+  //   name: "Winston Nut Groomer 1.0",
+  //   description: "Keep it clean, close, and confident with every trim. The Nut Groomer 1.0 is designed for body and below-the-belt grooming, offering a safe, comfortable trim with no nicks or irritation. It's your go-to tool for groomed look.",
+  //   image: "https://winstonindia.com/cdn/shop/files/NutGroomer1.0_c4133cbb-6b43-43bd-ac6e-c19b8cdbfc08.png?v=1740117793&width=800",
+  //   link: "https://winstonindia.com/products/winston-nut-groomer-1-o",
+  //   category: "Grooming",
+  //   releaseDate: "2024-02-22",
+  //   price: "₹1,499",
+  //   features: [
+  //     "Precision trimming head",
+  //     "Waterproof design",
+  //     "Rechargeable battery",
+  //     "LED light guide",
+  //     "Travel-friendly size"
+  //   ],
+  //   rating: 4.7
+  // },
   {
     id: 17,
     name: "Blackhead Remover",
@@ -333,5 +341,80 @@ export const products: Product[] = [
       "Gift-ready packaging"
     ],
     rating: 4.8
+  },
+  {
+    id: 25,
+    name: "Bloody Bubbly",
+    description: "India's first premium flavoured sparkling mocktail drink with variety pack featuring unique and exotic flavors. No artificial flavors or preservatives - just natural, refreshing, and innovative beverages crafted for the modern Indian palate.",
+    image: "https://m.media-amazon.com/images/I/617ji15XjsL._SL1500_.jpg",
+    link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP",
+    category: "Beverage",
+    releaseDate: "2024-02-25",
+    price: "₹520",
+    features: [
+      "100% natural ingredients",
+      "No artificial flavors",
+      "No preservatives",
+      "Variety pack with 10 unique flavors",
+      "Sparkling mocktail experience",
+      "Eco-friendly packaging"
+    ],
+    rating: 4.9,
+    flavors: [
+      {
+        name: "Berry Masala",
+        description: "A unique fusion of mixed berries with Indian spices",
+        image: "https://m.media-amazon.com/images/I/51+7M8IQDNL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Cranberry Soda",
+        description: "Tart cranberries in a refreshing sparkling drink",
+        image: "https://m.media-amazon.com/images/I/51YA9cf-kCL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Cream Soda",
+        description: "Classic cream soda with a smooth vanilla finish",
+        image: "https://m.media-amazon.com/images/I/51V6wVAvvJL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Ginger Ale",
+        description: "Zesty ginger with sparkling bubbles for a refreshing kick",
+        image: "https://m.media-amazon.com/images/I/51Vtr8XCfoL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Grape Fruit",
+        description: "Tangy grapefruit with a perfect sweet-tart balance",
+        image: "https://m.media-amazon.com/images/I/51oEhdxazhL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Lemon Soda",
+        description: "Crisp and zesty lemon in sparkling drink",
+        image: "https://m.media-amazon.com/images/I/51kXPTSiMmL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Paan Soda",
+        description: "Traditional Indian paan flavor in a modern sparkling drink",
+        image: "https://m.media-amazon.com/images/I/51vG52eH1YL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Spicy Guava",
+        description: "Tropical guava with a spicy twist for adventurous taste buds",
+        image: "https://m.media-amazon.com/images/I/51uywxiI95L._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+      },
+      {
+        name: "Litchi Soda",
+        description: "Sweet and fragrant litchi flavor in sparkling drink",
+        image: "https://m.media-amazon.com/images/I/51PuNz1l0DL._SL1500_.jpg",
+        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DX2DHDRT?th=1"
+      }
+    ]
   }
 ];
