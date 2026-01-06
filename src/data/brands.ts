@@ -107,19 +107,20 @@ export const brands: Brand[] = [
     location: "Goa, India",
     story: "Ziaho is passionate about creating exceptional chocolate experiences. We source the finest ingredients and use traditional techniques to craft chocolates that tell a story with every bite.",
     values: ["Artisanal craftsmanship", "Premium ingredients", "Unique flavors", "Traditional techniques"]
-  },
-  {
-    id: "bloody-bubbly",
-    name: "Bloody Bubbly",
-    description: "India's first pomegranate & tomato-based bubbly mocktail drink brand, creating innovative and natural sparkling beverages.",
-    logo: "https://images.unsplash.com/photo-1585518419759-fc7042228318?w=200&h=200&fit=crop&crop=center",
-    website: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP",
-    founded: "2024",
-    category: "Food & Beverage",
-    location: "India",
-    story: "Bloody Bubbly emerged as a revolutionary D2C beverage brand with a mission to redefine mocktail experiences. Born from a passion for natural ingredients and innovative flavor combinations, we created India's first pomegranate and tomato-based sparkling drink. Our journey began with a simple idea: to make sophisticated, healthy, and delicious beverages accessible to everyone who seeks premium alternatives to traditional drinks.",
-    values: ["Natural ingredients", "Innovation", "Health-conscious", "Sustainability", "Premium quality"]
   }
+  // COMMENTED OUT - Bloody Bubbly (can be unhidden in the future)
+  // {
+  //   id: "bloody-bubbly",
+  //   name: "Bloody Bubbly",
+  //   description: "India's first pomegranate & tomato-based bubbly mocktail drink brand, creating innovative and natural sparkling beverages.",
+  //   logo: "https://images.unsplash.com/photo-1585518419759-fc7042228318?w=200&h=200&fit=crop&crop=center",
+  //   website: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP",
+  //   founded: "2024",
+  //   category: "Food & Beverage",
+  //   location: "India",
+  //   story: "Bloody Bubbly emerged as a revolutionary D2C beverage brand with a mission to redefine mocktail experiences. Born from a passion for natural ingredients and innovative flavor combinations, we created India's first pomegranate and tomato-based sparkling drink. Our journey began with a simple idea: to make sophisticated, healthy, and delicious beverages accessible to everyone who seeks premium alternatives to traditional drinks.",
+  //   values: ["Natural ingredients", "Innovation", "Health-conscious", "Sustainability", "Premium quality"]
+  // }
 ];
 
 // Helper function to get brand by ID

@@ -17,8 +17,8 @@ export function ProductPage() {
   if (product) {
     useSeo({
       title: `${product.name} - New D2C Product ${brand ? `by ${brand.name}` : ''} | CULT CURATE`,
-      description: `${product.description} Price: ${product.price}. ${brand ? `From ${brand.name}, a leading D2C ${product.category.toLowerCase()} brand.` : ''} Discover this exciting new D2C product.`,
-      keywords: `${product.name}, new D2C product, ${product.category.toLowerCase()} products, ${brand?.name || ''}, new products 2024, exciting ${product.category.toLowerCase()}, innovative ${product.category.toLowerCase()}, D2C ${product.category.toLowerCase()}`,
+      description: `${product.description} Price: ${product.price}. ${brand ? `From ${brand.name}, a leading D2C ${product.category.toLowerCase()} brand.` : ''} Discover this exciting new D2C product in 2026.`,
+      keywords: `${product.name}, new D2C product 2026, ${product.category.toLowerCase()} products, ${brand?.name || ''}, innovative products 2026, sustainable ${product.category.toLowerCase()}, trending ${product.category.toLowerCase()}, D2C ${product.category.toLowerCase()}, new launches 2026`,
       image: product.image,
       type: 'product',
       structuredData: {

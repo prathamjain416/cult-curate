@@ -12,9 +12,9 @@ export function HomePage() {
 
   // SEO optimization
   useSeo({
-    title: 'CULT CURATE - Discover the Most Innovative & Exciting Products 2024',
-    description: 'Explore the most innovative and exciting products from top D2C brands in India. Discover emerging direct-to-consumer brands across beauty, fashion, food, tech, and lifestyle. Stay updated with the newest D2C products and trending brands.',
-    keywords: 'new D2C brands, top D2C brands, new products 2024, innovative D2C products, exciting products, direct to consumer brands India, new brands, emerging D2C brands, D2C products, startup products, trending brands',
+    title: 'CULT CURATE - Discover the Most Innovative & Exciting Products 2026',
+    description: 'Explore the most innovative and exciting products from top D2C brands in India. Discover emerging direct-to-consumer brands across beauty, fashion, food, tech, and lifestyle. Stay updated with the newest D2C products, sustainable brands, and trending launches in 2026.',
+    keywords: 'new D2C brands 2026, top D2C brands India, sustainable D2C products, innovative products 2026, emerging brands, direct to consumer brands India, eco-friendly D2C brands, clean beauty 2026, sustainable fashion, trending D2C products, new product launches 2026, AI-curated products',
     type: 'website',
     structuredData: {
       "@context": "https://schema.org",

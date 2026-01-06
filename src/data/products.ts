@@ -341,80 +341,81 @@ export const products: Product[] = [
       "Gift-ready packaging"
     ],
     rating: 4.8
-  },
-  {
-    id: 25,
-    name: "Bloody Bubbly",
-    description: "India's first premium flavoured sparkling mocktail drink with variety pack featuring unique and exotic flavors. No artificial flavors or preservatives - just natural, refreshing, and innovative beverages crafted for the modern Indian palate.",
-    image: "https://m.media-amazon.com/images/I/617ji15XjsL._SL1500_.jpg",
-    link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP",
-    category: "Beverage",
-    releaseDate: "2024-02-25",
-    price: "₹520",
-    features: [
-      "100% natural ingredients",
-      "No artificial flavors",
-      "No preservatives",
-      "Variety pack with 10 unique flavors",
-      "Sparkling mocktail experience",
-      "Eco-friendly packaging"
-    ],
-    rating: 4.9,
-    flavors: [
-      {
-        name: "Berry Masala",
-        description: "A unique fusion of mixed berries with Indian spices",
-        image: "https://m.media-amazon.com/images/I/51+7M8IQDNL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Cranberry Soda",
-        description: "Tart cranberries in a refreshing sparkling drink",
-        image: "https://m.media-amazon.com/images/I/51YA9cf-kCL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Cream Soda",
-        description: "Classic cream soda with a smooth vanilla finish",
-        image: "https://m.media-amazon.com/images/I/51V6wVAvvJL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Ginger Ale",
-        description: "Zesty ginger with sparkling bubbles for a refreshing kick",
-        image: "https://m.media-amazon.com/images/I/51Vtr8XCfoL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Grape Fruit",
-        description: "Tangy grapefruit with a perfect sweet-tart balance",
-        image: "https://m.media-amazon.com/images/I/51oEhdxazhL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Lemon Soda",
-        description: "Crisp and zesty lemon in sparkling drink",
-        image: "https://m.media-amazon.com/images/I/51kXPTSiMmL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Paan Soda",
-        description: "Traditional Indian paan flavor in a modern sparkling drink",
-        image: "https://m.media-amazon.com/images/I/51vG52eH1YL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Spicy Guava",
-        description: "Tropical guava with a spicy twist for adventurous taste buds",
-        image: "https://m.media-amazon.com/images/I/51uywxiI95L._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
-      },
-      {
-        name: "Litchi Soda",
-        description: "Sweet and fragrant litchi flavor in sparkling drink",
-        image: "https://m.media-amazon.com/images/I/51PuNz1l0DL._SL1500_.jpg",
-        link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DX2DHDRT?th=1"
-      }
-    ]
   }
+  // COMMENTED OUT - Bloody Bubbly (can be unhidden in the future)
+  // {
+  //   id: 25,
+  //   name: "Bloody Bubbly",
+  //   description: "India's first premium flavoured sparkling mocktail drink with variety pack featuring unique and exotic flavors. No artificial flavors or preservatives - just natural, refreshing, and innovative beverages crafted for the modern Indian palate.",
+  //   image: "https://m.media-amazon.com/images/I/617ji15XjsL._SL1500_.jpg",
+  //   link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP",
+  //   category: "Beverage",
+  //   releaseDate: "2024-02-25",
+  //   price: "₹520",
+  //   features: [
+  //     "100% natural ingredients",
+  //     "No artificial flavors",
+  //     "No preservatives",
+  //     "Variety pack with 10 unique flavors",
+  //     "Sparkling mocktail experience",
+  //     "Eco-friendly packaging"
+  //   ],
+  //   rating: 4.9,
+  //   flavors: [
+  //     {
+  //       name: "Berry Masala",
+  //       description: "A unique fusion of mixed berries with Indian spices",
+  //       image: "https://m.media-amazon.com/images/I/51+7M8IQDNL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Cranberry Soda",
+  //       description: "Tart cranberries in a refreshing sparkling drink",
+  //       image: "https://m.media-amazon.com/images/I/51YA9cf-kCL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Cream Soda",
+  //       description: "Classic cream soda with a smooth vanilla finish",
+  //       image: "https://m.media-amazon.com/images/I/51V6wVAvvJL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Ginger Ale",
+  //       description: "Zesty ginger with sparkling bubbles for a refreshing kick",
+  //       image: "https://m.media-amazon.com/images/I/51Vtr8XCfoL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Grape Fruit",
+  //       description: "Tangy grapefruit with a perfect sweet-tart balance",
+  //       image: "https://m.media-amazon.com/images/I/51oEhdxazhL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Lemon Soda",
+  //       description: "Crisp and zesty lemon in sparkling drink",
+  //       image: "https://m.media-amazon.com/images/I/51kXPTSiMmL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Paan Soda",
+  //       description: "Traditional Indian paan flavor in a modern sparkling drink",
+  //       image: "https://m.media-amazon.com/images/I/51vG52eH1YL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Spicy Guava",
+  //       description: "Tropical guava with a spicy twist for adventurous taste buds",
+  //       image: "https://m.media-amazon.com/images/I/51uywxiI95L._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DTHZ3YYP"
+  //     },
+  //     {
+  //       name: "Litchi Soda",
+  //       description: "Sweet and fragrant litchi flavor in sparkling drink",
+  //       image: "https://m.media-amazon.com/images/I/51PuNz1l0DL._SL1500_.jpg",
+  //       link: "https://www.amazon.in/Flavoured-Variety-Artficial-Flavours-Preservatives/dp/B0DX2DHDRT?th=1"
+  //     }
+  //   ]
+  // }
 ];

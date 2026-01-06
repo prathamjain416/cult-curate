@@ -14,8 +14,8 @@ export function BrandDetailPage() {
   if (brand) {
     useSeo({
       title: `${brand.name} - D2C ${brand.category} Brand | CULT CURATE`,
-      description: `Discover ${brand.name}, a leading D2C ${brand.category.toLowerCase()} brand from ${brand.location}. ${brand.description} Founded in ${brand.founded}. Explore their innovative products and brand story.`,
-      keywords: `${brand.name}, D2C ${brand.category} brand, ${brand.location} brands, new ${brand.category.toLowerCase()} brand, innovative ${brand.category.toLowerCase()} products, direct to consumer ${brand.category.toLowerCase()}`,
+      description: `Discover ${brand.name}, a leading D2C ${brand.category.toLowerCase()} brand from ${brand.location}. ${brand.description} Founded in ${brand.founded}. Explore their innovative and sustainable products in 2026.`,
+      keywords: `${brand.name}, D2C ${brand.category} brand 2026, ${brand.location} brands, emerging ${brand.category.toLowerCase()} brand, innovative ${brand.category.toLowerCase()} products, sustainable direct to consumer ${brand.category.toLowerCase()}, trending D2C brands 2026`,
       image: brand.logo,
       type: 'article',
       structuredData: {

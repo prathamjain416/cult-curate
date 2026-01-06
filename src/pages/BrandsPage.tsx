@@ -11,9 +11,9 @@ export function BrandsPage() {
 
   // SEO optimization
   useSeo({
-    title: 'Featured D2C Brands - Top Direct-to-Consumer Brands in India | CULT CURATE',
-    description: 'Discover featured D2C brands and top direct-to-consumer companies in India. Explore innovative brands across beauty, fashion, food, tech, and lifestyle categories. Find new emerging D2C brands.',
-    keywords: 'featured D2C brands, top D2C brands India, direct to consumer brands, new D2C companies, emerging brands, innovative brands, startup brands, D2C beauty brands, D2C fashion brands',
+    title: 'Featured D2C Brands 2026 - Top Direct-to-Consumer Brands in India | CULT CURATE',
+    description: 'Discover featured D2C brands and top direct-to-consumer companies in India. Explore innovative sustainable brands across beauty, fashion, food, tech, and lifestyle categories. Find new emerging D2C brands leading the way in 2026.',
+    keywords: 'featured D2C brands 2026, top D2C brands India, direct to consumer brands, new D2C companies, emerging brands, sustainable D2C brands, innovative brands, startup brands, D2C beauty brands, D2C fashion brands, eco-friendly brands',
     type: 'website',
     structuredData: {
       "@context": "https://schema.org",
