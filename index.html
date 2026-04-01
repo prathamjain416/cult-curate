@@ -16,9 +16,9 @@
     <!-- TraceFlow Analytics -->
 <script>
 (function(){
-  var TF_PROJECT="239ac3b03d152553c6fb1e3d";
-  var TF_KEY="bde91f4b0ff0195f61a1694288450735";
-  var TF_ENDPOINT="http://attribution-hub-7.cluster-0.preview.emergentcf.cloud/api/track";
+  var TF_PROJECT="7bceac0d84b4b3426b8a25c2";
+  var TF_KEY="369b0417bc353225768e1fb521be78cb";
+  var TF_ENDPOINT="http://localhost:8000/api/track";
   var sid=localStorage.getItem("tf_sid");
   var aid=localStorage.getItem("tf_aid");
   if(!sid||Date.now()-parseInt(localStorage.getItem("tf_ts")||"0")>1800000){
@@ -58,7 +58,7 @@
   }
   send(d);
   window.tfTrack=function(type,val,meta){
-    fetch("http://attribution-hub-7.cluster-0.preview.emergentcf.cloud/api/conversion",{
+    fetch("http://localhost:8000/api/conversion",{
       method:"POST",
       headers:{"Content-Type":"application/json"},
       body:JSON.stringify({project_id:TF_PROJECT,session_id:sid,event_type:type||"purchase",value:val||0,metadata:meta||{}})
