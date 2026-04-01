@@ -102,10 +102,10 @@ export const brands: Brand[] = [
     description: "Artisanal chocolate crafters creating premium confections with unique flavor profiles.",
     logo: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=200&h=200&fit=crop&crop=center",
     website: "https://ziaho.in",
-    founded: "2019",
+    founded: "2023",
     category: "Food",
     location: "Goa, India",
-    story: "Ziaho is passionate about creating exceptional chocolate experiences. We source the finest ingredients and use traditional techniques to craft chocolates that tell a story with every bite.",
+    story: "Ziaho is redefining the landscape of premium Indian chocolate brands by blending artisanal craftsmanship with culturally rich storytelling, creating a truly unique presence in the D2C chocolate space in India. Founded by Karan Tejani and Nisha Tejani, the brand focuses on sourcing high-quality cacao and pairing it with regionally inspired ingredients to deliver an authentic bean-to-bar chocolate experience in India that reflects the country’s diversity. What sets Ziaho apart is not just its innovative flavors but its design-first approach, where packaging becomes a storytelling medium through regional scripts and artistic expression, making it a standout in the luxury gifting chocolate market in India. Built for the modern, globally aware Indian consumer, Ziaho bridges the gap between international quality and local identity, positioning itself among the most exciting emerging D2C brands in India, while offering consumers a chance to explore artisan chocolates, gourmet Indian flavors, and premium handcrafted chocolates online in a way that feels both indulgent and deeply personal.",
     values: ["Artisanal craftsmanship", "Premium ingredients", "Unique flavors", "Traditional techniques"]
   }
   // COMMENTED OUT - Bloody Bubbly (can be unhidden in the future)
