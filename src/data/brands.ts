@@ -90,9 +90,9 @@ export const brands: Brand[] = [
     description: "Smart home solutions that blend technology with elegant design for modern living.",
     logo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop&crop=center",
     website: "https://nuuk.in",
-    founded: "2021",
+    founded: "2023",
     category: "Home",
-    location: "Hyderabad, India",
+    location: "Gurugram, India",
     story: "Nuuk is redefining the category of D2C home appliance brands in India by building products that are not just functional, but deeply aligned with how modern Indian households actually live. Founded by Gazal Kalra and Shalabh Gupta, the brand takes a design-first, user-centric approach to create premium home appliances for Indian homes that solve real challenges like dust-heavy environments, compact spaces, and changing climate conditions. From high-performance cordless vacuum cleaners to energy-efficient heaters and toxin-free air fryers, Nuuk focuses on delivering smart, durable, and aesthetically designed home appliances online, bridging the gap between global quality and India-specific needs. By rethinking everyday appliances through innovation, functionality, and minimal design, Nuuk is positioning itself among the fastest-growing consumer electronics startups in India, representing the new wave of innovative D2C brands in India that prioritize experience, practicality, and modern living.",
     values: ["Smart technology", "Elegant design", "User-friendly", "Modern living"]
   },
